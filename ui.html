@@ -74,13 +74,13 @@
   <script>
     const spaces = [
       { label: "Hair", char: "\u200A", unicode: "U+200A" },
+      { label: "Sixth", char: "\u2006", unicode: "U+2006" },
       { label: "Thin", char: "\u2009", unicode: "U+2009" },
-      { label: "6-em", char: "\u2006", unicode: "U+2006" },
-      { label: "4-em", char: "\u2005", unicode: "U+2005" },
-      { label: "3-em", char: "\u2004", unicode: "U+2004" },
+      { label: "Quarter", char: "\u2005", unicode: "U+2005" },
+      { label: "Third", char: "\u2004", unicode: "U+2004" },
       { label: "En", char: "\u2002", unicode: "U+2002" },
       { label: "Em", char: "\u2003", unicode: "U+2003" },
-      { label: "Figure", char: "\u2007", unicode: "U+2007" },
+      { label: "No-break", char: "\u00A0", unicode: "U+00A0" },
     ];
 
     const palette = document.getElementById("palette");
@@ -91,7 +91,7 @@
 
       const preview = document.createElement("span");
       preview.className = "btn-preview";
-      preview.textContent = "an" + char + "na";
+      preview.textContent = "an" + char + "no";
 
       const lbl = document.createElement("span");
       lbl.className = "btn-label";
