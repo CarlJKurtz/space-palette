@@ -9,13 +9,13 @@ Click a character to copy it to your clipboard, then paste with `Cmd+V` / `Ctrl+
 | Name | Unicode |
 |------|---------|
 | Hair Space | `U+200A` |
+| Sixth Space | `U+2006` |
 | Thin Space | `U+2009` |
-| Six-per-em Space | `U+2006` |
-| Four-per-em Space | `U+2005` |
-| Three-per-em Space | `U+2004` |
+| Quarter Space | `U+2005` |
+| Third Space | `U+2004` |
 | En Space | `U+2002` |
 | Em Space | `U+2003` |
-| Figure Space | `U+2007` |
+| No-break Space | `U+00A0` |
 
 ## Installation
 
